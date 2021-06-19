@@ -1,0 +1,17 @@
+.cajaform {
+    display: flex;
+    flex-direction:row;
+    width: 280px;
+    border: 2px solid black;
+    border-radius:  20px;
+    background-color:rgba(20, 20, 20, 0.6);
+    color: honeydew;
+    background-position: center center;
+    padding: 1rem;
+    margin: 17rem;
+}
+
+.danger {
+    color: orangered;
+    font-weight: bold;
+}

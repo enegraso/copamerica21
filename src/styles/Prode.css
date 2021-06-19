@@ -1,0 +1,88 @@
+.boxcontainerp {
+    position: relative;
+    top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxprode {
+    width: auto;
+    border: 1px solid rgb(82, 76, 76);
+    border-radius: 1em;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.boxresult{
+    width: auto;
+    border: 1px solid rgb(82, 76, 76);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.boxflags {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    border: 1px solid rgb(82, 76, 76);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;    
+}
+
+.titprode {
+    display: flex;
+    top: 0em;
+    height: 2em;
+    background-color: rgb(43, 11, 160);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: space-between;
+    color: lavenderblush;
+    font-weight: bold;
+}
+
+.botprode{
+    display: flex;
+    bottom: auto;
+    height: 2em;
+    background-color: rgb(43, 11, 160);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.titmatch {
+    display: flex;
+    top: 0em;
+    height: 2em;
+    background-color: rgb(11, 160, 48);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.boxresybutton {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border: 1px solid rgb(82, 76, 76);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;    
+}

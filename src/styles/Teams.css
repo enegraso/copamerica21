@@ -1,0 +1,7 @@
+.boxcontainert {
+    position: relative;
+    top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

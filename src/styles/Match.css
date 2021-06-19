@@ -1,0 +1,63 @@
+.boxmatch {
+    width: 320px;
+    border: 1px solid rgb(82, 76, 76);
+    border-radius: 1em;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.boxcontainerm {
+    position: relative;
+    top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titteam {
+    display: flex;
+    top: 0em;
+    height: 2em;
+    background-color: rgb(43, 11, 160);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.flagcontainer {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.flag {
+    width: 90px;
+    height: 75px;
+    display: flex;
+    align-content: space-between;
+}
+
+.team {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.teamcontainer {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result {
+    color: rgb(250, 134, 2);
+    font-weight: bold;
+    font-size: xx-large;
+}

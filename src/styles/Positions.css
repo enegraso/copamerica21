@@ -1,0 +1,38 @@
+.table {
+    display: flex;
+    width: 100%;
+    border: 1px orange;
+    color: white;
+    font-size: x-large;
+    align-content: center;
+    justify-content: left;
+}
+
+.groupscontainer {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+/*     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.flagg{
+    width: 70px;
+    height: 40px;
+    margin: 0.1em
+}
+
+.titgroup {
+    display: flex;
+    width: 100%;
+    top: 0em;
+    height: 2em;
+    background-color: rgb(43, 11, 160);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+

@@ -1,0 +1,15 @@
+.boxcontainer {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.subtit {
+    width: 100%;
+    background-color: lawngreen;
+    color:lemonchiffon;
+    font-size: large;
+    font-weight: bold;
+}
