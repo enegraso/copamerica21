@@ -4,7 +4,8 @@ Informacion de copa America y posibilidad de pronosticar resultados y jugar suma
 Recuerda que puedes jugar entre las 10 y las 23 horas que es el horario que estará encendido el server que sostiene el backend
 Para hacerlo debes tener que hacer npm install y luego npm start, en el link Jugar puedes registrarte y loguearte para acertar pronósticos de los partidos que estén por jugarse.
 El juego te brindará 5 puntos por registrarte. Por acertar resultado de partido obtendrás 10 puntos. Si aciertas al ganador o empate sin resultado correcto, sumarás 5 puntos.
-NOTA: Como todavia faltan aprender más cosas y avanzar en el curso de Henry, faltan cursar un par de modulos, se pueden presentar bugs y demoras en server backend.
+En lo posible se agregará la posibilidad de torneos de amigos.
+NOTA: Como todavia faltan aprender más cosas y avanzar en el curso de Henry, faltan cursar un par de modulos, se pueden presentar bugs y demoras en server backend. También hay que avanzar en el desarrollo de estilos CSS para la muestra de los pronosticos y posiciones de los jugadores.
 NOTA 2: Si deseas colaborar con el proyecto, son bienvenidos todos los comentarios.
 NOTA 3: El back también se encuentra como repositorio publico en https://github.com/enegraso/copamerica21back
 Enjoy It!
