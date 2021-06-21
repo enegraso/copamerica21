@@ -1,71 +1,28 @@
 # Getting Started with Create React App Copa America 21
 
-This projets will show the teams, matches and results matches. this repository is the front of the app.
-The back is on my computer and will be available for testing, between 7:00 p.m. and 11:00 p.m. 
+Informacion de copa America y posibilidad de pronosticar resultados y jugar sumando puntos
+Recuerda que puedes jugar entre las 10 y las 23 horas que es el horario que estará encendido el server que sostiene el backend
+Para hacerlo debes tener que hacer npm install y luego npm start, en el link Jugar puedes registrarte y loguearte para acertar pronósticos de los partidos que estén por jugarse.
+El juego te brindará 5 puntos por registrarte. Por acertar resultado de partido obtendrás 10 puntos. Si aciertas al ganador o empate sin resultado correcto, sumarás 5 puntos.
+NOTA: Como todavia faltan aprender más cosas y avanzar en el curso de Henry, faltan cursar un par de modulos, se pueden presentar bugs y demoras en server backend.
+NOTA 2: Si deseas colaborar con el proyecto, son bienvenidos todos los comentarios.
+NOTA 3: El back también se encuentra como repositorio publico en https://github.com/enegraso/copamerica21back
+Enjoy It!
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs every dependencies
+
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode and play! .\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You can play this game. Register is free.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
