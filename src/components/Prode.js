@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import "../styles/Prode.css";
 
 function Prode(props) {
-
-
   console.log(props.userDetail.length);
   if (!props.userDetail.length) {
     return <Login register={props.register} />;
@@ -38,9 +36,19 @@ function Prode(props) {
         </div>
         <div className="boxresult">
           <div>
-          <Link to="/games"><span>-   Listar juegos   -</span></Link>
-          </div><div>
-          <Link to="/scores"><span>-   Posiciones   -</span></Link>
+            <Link to="/games">
+              <span>- Pronosticar -</span>
+            </Link>
+          </div>
+          <div>
+            <Link to="/playeds">
+              <span>- Pronosticados -</span>
+            </Link>
+          </div>
+          <div>
+            <Link to="/scores">
+              <span>- Tabla Jugadores -</span>
+            </Link>
           </div>
         </div>
         <div className="cuerpo">

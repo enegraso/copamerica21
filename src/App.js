@@ -10,6 +10,7 @@ import Prode from "./components/Prode";
 import Register from "./components/Register";
 import Scores from "./components/Scores";
 import Pronos from "./components/Pronos";
+import Jugados from "./components/Jugados";
 import Nav from "./components/Nav";
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
       </Route>
       <Route path="/games">
         <Pronos />
+      </Route>
+      <Route path="/playeds">
+        <Jugados />
       </Route>
     </div>
   );

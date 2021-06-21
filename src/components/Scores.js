@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {Link} from "react-router-dom"
 import Score from "./Score"
 import '../styles/Scores.css'
 
@@ -46,6 +47,7 @@ function Scores(props) {
         )
       })}
       </div>
+      <Link to="/prode">Volver</Link>
     </div>
   );
 }
