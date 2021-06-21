@@ -1,5 +1,6 @@
 const initialState = {
   userDetail: {},
+  gameProde: 0
 };
 
 function rootReducer(state = initialState, action) {
@@ -17,6 +18,14 @@ function rootReducer(state = initialState, action) {
       userDetail: state.userDetail.filter(user => user.idusuario !== action.payload),
     };
   }
+
+  if (action.type === "ADD_PRODE") {
+    return {
+      ...state,
+      gameProde: action.payload,
+    };
+  }
+
   return state;
 }
 

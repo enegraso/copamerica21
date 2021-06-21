@@ -37,8 +37,11 @@ function Prode(props) {
           <br />
         </div>
         <div className="boxresult">
-          <button>Listar juegos</button>
-          <Link to="/scores">Posiciones</Link>
+          <div>
+          <Link to="/games"><span>-   Listar juegos   -</span></Link>
+          </div><div>
+          <Link to="/scores"><span>-   Posiciones   -</span></Link>
+          </div>
         </div>
         <div className="cuerpo">
           Tu puntaje actual es: {props.userDetail[0].score} puntos{" "}

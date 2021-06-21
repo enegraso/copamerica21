@@ -46,7 +46,7 @@ function Login(props) {
   };
 
   function handleSubmit(e) {
-    // funcion que va a despachar la accion getuser (deberia llamarse login)
+    // funcion que debe solicitar usuario logueado 
     e.preventDefault();
     props.getUser(input.username, input.password);
   }

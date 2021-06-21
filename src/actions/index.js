@@ -18,3 +18,9 @@ export function logOut(arg) {
     dispatch({ type: "LOGOUT_USER", payload: arg });
   };
 }
+
+export function prode(arg) {
+  return function (dispatch) {
+    dispatch({ type: "ADD_PRODE", payload: arg });
+  };
+}

@@ -105,8 +105,6 @@ function Register() {
       )
   }
 
-
-
   return (
     <div className="regcontainer">
       <div className="boxreg">

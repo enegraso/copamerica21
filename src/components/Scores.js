@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Score from "./Score"
+import '../styles/Scores.css'
 
 function Scores(props) {
   const [hasError, setErrors] = useState(false);
@@ -26,19 +28,24 @@ function Scores(props) {
    if (hasError) {
     return null;
   }  
-
+  var pos=1
   return (
-    <div>
-      <h1>Tabla de posiciones de jugadores</h1>
-      {userspos && userspos.map((user) => {
+    <div className="containerscore">
+      <div className="boxscores">
+      <div className="titscore">Tabla de posiciones de jugadores</div>
+      { 
+      userspos && userspos.map((user) => {
+        
         return (
-            <div key={user.idusuario}>
+            <div className="listado" key={user.idusuario}>
         <div>
-            {user.usuario} - {user.score}
+          <Score usuario={user.usuario} score={user.score} pos={pos++} />
         </div>
         </div>
+        
         )
       })}
+      </div>
     </div>
   );
 }

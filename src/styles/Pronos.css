@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxpartido {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+/*     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.listadop {
+    color: darkturquoise;
+    font-size: medium;
+}
